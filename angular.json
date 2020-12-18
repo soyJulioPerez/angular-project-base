@@ -3,11 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-<<<<<<< HEAD
-    "control-value-accessor": {
-=======
     "project-base": {
->>>>>>> example01
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -17,11 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-<<<<<<< HEAD
-            "outputPath": "dist/control-value-accessor",
-=======
             "outputPath": "dist/project-base",
->>>>>>> example01
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -77,30 +69,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-<<<<<<< HEAD
-            "browserTarget": "control-value-accessor:build"
-          },
-          "configurations": {
-            "production": {
-              "browserTarget": "control-value-accessor:build:production"
-=======
             "browserTarget": "project-base:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "project-base:build:production"
->>>>>>> example01
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-<<<<<<< HEAD
-            "browserTarget": "control-value-accessor:build"
-=======
             "browserTarget": "project-base:build"
->>>>>>> example01
           }
         },
         "test": {
@@ -137,27 +117,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-<<<<<<< HEAD
-            "devServerTarget": "control-value-accessor:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "control-value-accessor:serve:production"
-=======
             "devServerTarget": "project-base:serve"
           },
           "configurations": {
             "production": {
               "devServerTarget": "project-base:serve:production"
->>>>>>> example01
             }
           }
         }
       }
     }},
-<<<<<<< HEAD
-  "defaultProject": "control-value-accessor"
-=======
   "defaultProject": "project-base"
->>>>>>> example01
 }
