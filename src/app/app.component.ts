@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styles: ['']
 })
 export class AppComponent {
+<<<<<<< HEAD
   title = 'control-value-accessor';
+=======
+  title = 'project-base';
+>>>>>>> example01
 }
